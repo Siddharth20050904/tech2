@@ -1,0 +1,17 @@
+[0.443s] Invoking command in '/home/sid/ws/build/tortoisebot_control': PYTHONPATH=/home/sid/ws/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sid/ws/build/tortoisebot_control/build --no-deps symlink_data
+[0.599s] running develop
+[0.690s] running egg_info
+[0.690s] writing tortoisebot_control.egg-info/PKG-INFO
+[0.690s] writing dependency_links to tortoisebot_control.egg-info/dependency_links.txt
+[0.690s] writing entry points to tortoisebot_control.egg-info/entry_points.txt
+[0.690s] writing requirements to tortoisebot_control.egg-info/requires.txt
+[0.691s] writing top-level names to tortoisebot_control.egg-info/top_level.txt
+[0.692s] reading manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[0.692s] writing manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[0.693s] running build_ext
+[0.693s] Creating /home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot-control.egg-link (link to .)
+[0.693s] Installing teleop_twist_keyboard script to /home/sid/ws/install/tortoisebot_control/lib/tortoisebot_control
+[0.694s] 
+[0.694s] Installed /home/sid/ws/build/tortoisebot_control
+[0.694s] running symlink_data
+[0.712s] Invoked command in '/home/sid/ws/build/tortoisebot_control' returned '0': PYTHONPATH=/home/sid/ws/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sid/ws/build/tortoisebot_control/build --no-deps symlink_data

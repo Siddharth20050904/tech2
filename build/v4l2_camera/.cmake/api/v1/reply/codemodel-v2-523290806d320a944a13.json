@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d50f667e314384a7a571.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "v4l2_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9845d5afe1f768b93345.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera-970e4e9dad65364a1da5.json",
+					"name" : "v4l2_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_compose_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_compose_test-5589ee9d3ddb51ff8849.json",
+					"name" : "v4l2_camera_compose_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_node-17d6da951a5a7831ec42.json",
+					"name" : "v4l2_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_uninstall-ed88632209f4611906c6.json",
+					"name" : "v4l2_camera_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sid/ws/build/v4l2_camera",
+		"source" : "/home/sid/ws/tortoisebot/v4l2_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

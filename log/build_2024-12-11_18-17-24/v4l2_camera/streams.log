@@ -1,0 +1,106 @@
+[0.254s] Invoking command in '/home/sid/ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sid/ws/tortoisebot/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/sid/ws/install/v4l2_camera
+[0.327s] -- The C compiler identification is GNU 11.4.0
+[0.390s] -- The CXX compiler identification is GNU 11.4.0
+[0.400s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.515s] -- Detecting C compile features
+[0.516s] -- Detecting C compile features - done
+[0.522s] -- Detecting CXX compiler ABI info
+[0.627s] -- Detecting CXX compiler ABI info - done
+[0.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.637s] -- Detecting CXX compile features
+[0.637s] -- Detecting CXX compile features - done
+[0.640s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.875s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.021s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.033s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.101s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.109s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.123s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.208s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.211s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.306s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.333s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.368s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.374s] -- Looking for pthread.h
+[1.444s] -- Looking for pthread.h - found
+[1.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.515s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.516s] -- Found Threads: TRUE  
+[1.560s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.583s] -- Found camera_info_manager: 3.1.10 (/opt/ros/humble/share/camera_info_manager/cmake)
+[1.624s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.633s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[1.654s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.726s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.726s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sid/ws/tortoisebot/v4l2_camera/include>
+[1.726s] -- Configured cppcheck exclude dirs and/or files: 
+[1.726s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.726s] -- Configured cpplint exclude dirs and/or files: 
+[1.727s] -- Added test 'lint_cmake' to check CMake code style
+[1.728s] -- Added test 'uncrustify' to check C / C++ code style
+[1.728s] -- Configured uncrustify additional arguments: 
+[1.728s] -- Added test 'xmllint' to check XML markup files
+[1.731s] -- Configuring done
+[1.747s] -- Generating done
+[1.752s] -- Build files have been written to: /home/sid/ws/build/v4l2_camera
+[1.762s] Invoked command in '/home/sid/ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sid/ws/tortoisebot/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/sid/ws/install/v4l2_camera
+[1.763s] Invoking command in '/home/sid/ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/v4l2_camera -- -j12 -l12
+[1.811s] [ 25%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[1.811s] [ 25%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[1.813s] [ 37%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o[0m
+[8.444s] [ 50%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[8.876s] [ 50%] Built target v4l2_camera
+[8.896s] [ 75%] [32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o[0m
+[8.896s] [ 75%] [32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o[0m
+[11.470s] [ 87%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[11.851s] [ 87%] Built target v4l2_camera_node
+[15.536s] [100%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[16.031s] [100%] Built target v4l2_camera_compose_test
+[16.040s] Invoked command in '/home/sid/ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/v4l2_camera -- -j12 -l12
+[16.042s] Invoking command in '/home/sid/ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/v4l2_camera
+[16.049s] -- Install configuration: ""
+[16.049s] -- Installing: /home/sid/ws/install/v4l2_camera/include
+[16.049s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera
+[16.049s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/parameters.hpp
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[16.050s] -- Installing: /home/sid/ws/install/v4l2_camera/lib/libv4l2_camera.so
+[16.054s] -- Set runtime path of "/home/sid/ws/install/v4l2_camera/lib/libv4l2_camera.so" to ""
+[16.054s] -- Installing: /home/sid/ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[16.055s] -- Set runtime path of "/home/sid/ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""
+[16.055s] -- Installing: /home/sid/ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[16.057s] -- Set runtime path of "/home/sid/ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""
+[16.057s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[16.058s] -- Installing: /home/sid/ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[16.059s] -- Installing: /home/sid/ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[16.061s] Invoked command in '/home/sid/ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/v4l2_camera

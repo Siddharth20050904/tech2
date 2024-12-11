@@ -1,0 +1,6 @@
+Invoking command in '/home/sid/ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sid/ws/tortoisebot/tortoisebot_slam -DCMAKE_INSTALL_PREFIX=/home/sid/ws/install/tortoisebot_slam
+Invoked command in '/home/sid/ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sid/ws/tortoisebot/tortoisebot_slam -DCMAKE_INSTALL_PREFIX=/home/sid/ws/install/tortoisebot_slam
+Invoking command in '/home/sid/ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/tortoisebot_slam -- -j12 -l12
+Invoked command in '/home/sid/ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/tortoisebot_slam -- -j12 -l12
+Invoking command in '/home/sid/ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/tortoisebot_slam
+Invoked command in '/home/sid/ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/tortoisebot_slam

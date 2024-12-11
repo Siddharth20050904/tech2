@@ -1,0 +1,22 @@
+[0.176s] Invoking command in '/home/sid/ws/build/tortoisebot_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/tortoisebot_imu -- -j12 -l12
+[0.206s] Invoked command in '/home/sid/ws/build/tortoisebot_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/tortoisebot_imu -- -j12 -l12
+[0.208s] Invoking command in '/home/sid/ws/build/tortoisebot_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/tortoisebot_imu
+[0.217s] -- Install configuration: ""
+[0.217s] -- Execute custom install script
+[0.217s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/lib/tortoisebot_imu/imu_node.py
+[0.217s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/ament_index/resource_index/package_run_dependencies/tortoisebot_imu
+[0.218s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/ament_index/resource_index/parent_prefix_path/tortoisebot_imu
+[0.218s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/environment/ament_prefix_path.sh
+[0.218s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/environment/ament_prefix_path.dsv
+[0.218s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/environment/path.sh
+[0.218s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/environment/path.dsv
+[0.218s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/local_setup.bash
+[0.218s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/local_setup.sh
+[0.219s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/local_setup.zsh
+[0.219s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/local_setup.dsv
+[0.219s] -- Symlinking: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/package.dsv
+[0.226s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/ament_index/resource_index/packages/tortoisebot_imu
+[0.226s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/cmake/tortoisebot_imuConfig.cmake
+[0.226s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/cmake/tortoisebot_imuConfig-version.cmake
+[0.227s] -- Up-to-date symlink: /home/sid/ws/install/tortoisebot_imu/share/tortoisebot_imu/package.xml
+[0.251s] Invoked command in '/home/sid/ws/build/tortoisebot_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/tortoisebot_imu

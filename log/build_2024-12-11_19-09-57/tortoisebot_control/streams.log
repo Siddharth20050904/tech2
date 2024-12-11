@@ -1,0 +1,30 @@
+[0.627s] Invoking command in '/home/sid/ws/build/tortoisebot_control': PYTHONPATH=/home/sid/ws/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sid/ws/build/tortoisebot_control/build
+[0.851s] running develop
+[1.002s] Invoked command in '/home/sid/ws/build/tortoisebot_control' returned '0': PYTHONPATH=/home/sid/ws/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sid/ws/build/tortoisebot_control/build
+[1.003s] Invoking command in '/home/sid/ws/tortoisebot/tortoisebot_control': PYTHONPATH=/home/sid/ws/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_control build --build-base /home/sid/ws/build/tortoisebot_control/build install --record /home/sid/ws/build/tortoisebot_control/install.log --single-version-externally-managed install_data --force
+[1.201s] running egg_info
+[1.202s] writing ../../build/tortoisebot_control/tortoisebot_control.egg-info/PKG-INFO
+[1.202s] writing dependency_links to ../../build/tortoisebot_control/tortoisebot_control.egg-info/dependency_links.txt
+[1.202s] writing entry points to ../../build/tortoisebot_control/tortoisebot_control.egg-info/entry_points.txt
+[1.202s] writing requirements to ../../build/tortoisebot_control/tortoisebot_control.egg-info/requires.txt
+[1.203s] writing top-level names to ../../build/tortoisebot_control/tortoisebot_control.egg-info/top_level.txt
+[1.204s] reading manifest file '../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[1.205s] writing manifest file '../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[1.205s] running build
+[1.205s] running build_py
+[1.206s] running install
+[1.206s] running install_lib
+[1.206s] creating /home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[1.206s] copying /home/sid/ws/build/tortoisebot_control/build/lib/tortoisebot_control/__init__.py -> /home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[1.207s] copying /home/sid/ws/build/tortoisebot_control/build/lib/tortoisebot_control/teleop_twist_keyboard.py -> /home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[1.207s] byte-compiling /home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/__init__.py to __init__.cpython-310.pyc
+[1.207s] byte-compiling /home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[1.208s] running install_data
+[1.209s] copying resource/tortoisebot_control -> /home/sid/ws/install/tortoisebot_control/share/ament_index/resource_index/packages
+[1.209s] copying package.xml -> /home/sid/ws/install/tortoisebot_control/share/tortoisebot_control
+[1.209s] running install_egg_info
+[1.210s] Copying ../../build/tortoisebot_control/tortoisebot_control.egg-info to /home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info
+[1.211s] running install_scripts
+[1.231s] Installing teleop_twist_keyboard script to /home/sid/ws/install/tortoisebot_control/lib/tortoisebot_control
+[1.231s] writing list of installed files to '/home/sid/ws/build/tortoisebot_control/install.log'
+[1.254s] Invoked command in '/home/sid/ws/tortoisebot/tortoisebot_control' returned '0': PYTHONPATH=/home/sid/ws/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sid/ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_control build --build-base /home/sid/ws/build/tortoisebot_control/build install --record /home/sid/ws/build/tortoisebot_control/install.log --single-version-externally-managed install_data --force

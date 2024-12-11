@@ -1,0 +1,4 @@
+Invoking command in '/home/sid/ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/tortoisebot_description -- -j12 -l12
+Invoked command in '/home/sid/ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/sid/ws/build/tortoisebot_description -- -j12 -l12
+Invoking command in '/home/sid/ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/tortoisebot_description
+Invoked command in '/home/sid/ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ws/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/sid/ws/build/tortoisebot_description
